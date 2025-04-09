@@ -1,0 +1,129 @@
+header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhKQt2vTjLd1xZq31Z8JiBVK4HfAOVTMdtlw&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  border-radius: 6px;
+}
+nav {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+}
+select {
+  width: 12vw;
+  padding: 6px;
+}
+select i {
+  font-size: 100px;
+}
+input,
+select {
+  border-radius: 6px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px 12px;
+  width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+h1,
+p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 12px;
+}
+p {
+  bottom: 30%;
+  font-size: 22px;
+  color: #fff;
+}
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  bottom: 40%;
+}
+.location i {
+  margin-right: 6px;
+  color: red;
+  font-size: 22px;
+}
+
+select {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: black;
+  outline: none;
+  cursor: not-allowed;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search i {
+  margin-right: 8px;
+  color: #999;
+  font-size: 22px;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+main {
+  background-image: url(https://images.pexels.com/photos/10984477/pexels-photo-10984477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  border-radius: 6px;
+  position: relative;
+  background-size: cover;
+}
+section{
+    width: 100%;
+}
+section h1{
+    position: absolute;
+    bottom: 35%;
+}
+section p{
+    position: absolute;
+    bottom: 20%;
+}
+section button{
+    position: absolute;
+    bottom: 7%;
+    margin: auto;
+    padding: 15px 23px;
+    border-radius: 48px;
+    border: none;
+    background-color: #fff;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

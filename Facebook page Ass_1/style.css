@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(228, 227, 227, 0.836);
+}
+.card {
+  width: 40vw;
+  height: 55vh;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 12px;
+  padding: 12px;
+  box-shadow: 12px 8px 12px rgba(128, 128, 128, 0.74);
+}
+.facebook {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0866ff;
+  font-weight: 600;
+  text-align: center;
+  margin: 40px;
+  font-size: 48px;
+}
+p {
+  text-align: center;
+}
+p,
+input:placeholder-shown,
+.btn {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+input {
+  outline: none;
+  border: 0.5px solid rgba(209, 209, 209, 0.87);
+  padding: 12px;
+  border-radius: 2px;
+}
+.btn {
+  background-color: #166fe5;
+  border-radius: 6px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+a {
+  margin: auto;
+  color: #0866FF;
+}
+hr {
+  width: 40vw;
+}
+.btn-account {
+  background-color: green;
+  color: #ffffff;
+  font-size: 18px;
+}

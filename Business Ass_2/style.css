@@ -1,0 +1,31 @@
+.cardcontainer {
+  background-color: rgb(107, 224, 154);
+  border-radius: 5px;
+  width: 50vw;
+  height: 50vh;
+  padding: 50px;
+}
+p {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.para {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+button {
+  border-radius: 48px;
+  border: none;
+  padding: 12px 34px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 12px;
+}
+@media screen and (max-width:575px) {
+    .cardcontainer{
+        width: 100%;
+    }
+}

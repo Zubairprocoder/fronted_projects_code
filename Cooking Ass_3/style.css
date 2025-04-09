@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(214, 214, 214, 0.466);
+}
+.cardcontainer {
+  width: 50vw;
+  height: 90vh;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: auto;
+  padding: 12px;
+  /* box-sizing: border-box; */
+  box-shadow: 12px 8px 12px  rgba(124, 123, 123, 0.76);
+}
+.card {
+  background-image: url(https://www.shutterstock.com/image-photo/indian-asian-young-woman-enjoy-600nw-2450675421.jpg);
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 60vh;
+  margin: auto;
+  border-radius: 12px;
+  position: relative;
+}
+.off {
+  position: absolute;
+  bottom: 5%;
+  background-color: rgb(67, 108, 214);
+  padding: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 3px;
+}
+.time {
+  text-align: center;
+  background-color: #fff;
+  color: black;
+  position: absolute;
+  right: 2%;
+  border-radius: 3px;
+  bottom: 10%;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 6px;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.f-1{
+    font-weight: 400;
+    font-size: 17px;
+}
+.f-end{
+    font-size: 20px;
+}
